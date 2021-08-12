@@ -7,7 +7,7 @@
     background-image: url("../../images/looking-up.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100vw;
+    /* background-size: 100vw; */
     background-size: cover;
 
     /* this is for a background image that isn't fixed */
@@ -42,4 +42,10 @@
     font-family: 'Courier New', Courier, monospace;
     opacity: .75;
     backdrop-filter: blur(6px);
+}
+
+@media screen and (max-width: 600px) {
+    .custom-jumbo {
+        background-position: center;
+    }
 }
