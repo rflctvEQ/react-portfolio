@@ -1,0 +1,125 @@
+.projects {
+    background-color: var(--dark);
+    color: var(--light);
+    min-height: 100vh;
+    border: none !important;
+}
+
+.projects h1 {
+    /* margin-left: 16vw; */
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.project {
+    background-color: var(--purple);
+    height: 200px;
+    margin: 10px; 
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--light);
+    padding-top: 10px;
+    border: 3px solid var(--purple);
+    display: flex;
+}
+
+.project:hover {
+    text-decoration: none;
+    color: var(--light);
+    background-color: rgb(51, 2, 107);
+    background-image: none;
+    transform: scale(1.15, 1.15) !important;
+    z-index: 1;
+    border-color: var(--light);
+    height: 225px;
+}
+
+.project .project-title {
+    font-weight: 700;
+    font-style: oblique;
+}
+
+.project .description {
+    display: none;
+}
+
+.project:hover .description {
+    display: block;
+}
+
+.project:hover h2 {
+    display: none;
+}
+
+.project .github-link {
+    background-color: var(--light);
+    color: var(--purple);
+    border: 3px solid var(--purple);
+    border-radius: 9000px; 
+    padding: 8px;
+}
+
+.project .project-link {
+    background-color: var(--light);
+    color: var(--purple);
+    border: 3px solid var(--purple);
+    border-radius: 9000px; 
+    padding: 8px;
+}
+
+.project .github-link:hover {
+    background-color: var(--dark);
+    color: var(--light);
+    text-decoration: none;
+}
+
+.project .project-link:hover {
+    background-color: var(--dark);
+    color: var(--light);
+    text-decoration: none;
+}
+
+.project1 {
+    background-image: url("../../images/inspecto-gadget.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.project2 {
+    background-image: url("../../images/group-mentality.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.project3 {
+    background-image: url("../../images/tech-blog.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.project4 {
+    background-image: url("../../images/note-taker.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.project5 {
+    background-image: url("../../images/employee-directory.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.project6 {
+    background-image: url("../../images/fitness-tracker.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.project1:hover {
+    /* height: 225px; */
+}
+
+.project5:hover {
+    /* height: 250px; */
+}

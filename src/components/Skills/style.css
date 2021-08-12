@@ -1,0 +1,84 @@
+.resume {
+    background-color: white;
+    min-height: 120vh;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-bottom: 2rem;
+}
+
+.resume h1 {
+    max-width: 80%;
+    margin: 2rem;
+    padding-top: 2rem;
+}
+
+.green {
+    color: green;
+}
+
+.resume a {
+    color: var(--purple);
+    text-decoration: underline;
+}
+
+.resume a:hover {
+    color: rgb(75, 0, 160);
+}
+
+.technologies-title {
+    margin-top: 4rem !important;
+    margin-bottom: 4rem !important;
+}
+
+.tech-logo {
+    /* width: 100px; */
+    /* max-height: auto; */
+    margin: 1rem;
+}
+
+.technologies {
+    margin-bottom: 10rem;
+}
+
+.express-div, .mongodb-div {
+    display: flex;
+    align-items: center;
+}
+
+/* .teaching {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+}
+
+.teaching img {
+    margin-right: 10px;
+    margin-left: 4rem;
+    display: block;
+}
+
+.courses {
+    margin-left: 75px;
+    margin-right: 2rem;
+    border: 15px solid var(--purple);
+    border-radius: 35px;
+    padding: 10px;
+}
+
+.courses h2 {
+    margin-bottom: 15px;
+}
+
+.courses ul {
+    list-style-type: disclosure-closed;
+}
+
+.courses ul li {
+    line-height: 4.5;
+    margin-left: -19px;
+}
+
+.courses ul li a {
+    text-decoration: none;
+} */

@@ -1,0 +1,34 @@
+.about {
+    min-height: 120vh;
+    background-color: white;
+}
+
+.about h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.about img {
+    border-radius: 50%;
+    border: 8px solid var(--purple);
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.about h4 { 
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.5;
+}
