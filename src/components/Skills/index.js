@@ -16,11 +16,12 @@ import googleIcon from '../../linked-files/google-icon.svg';
 import { Tween } from 'react-gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import { gsap } from 'gsap';
-gsap.registerPlugin(ScrollTrigger);
-
 // forces CSSPlugin to be included in build -- although ScrollTrigger works just fine locally, CSSPlugin seems to be dropped during build
 import { CSSPlugin } from 'gsap/CSSPlugin';
 gsap.registerPlugin(CSSPlugin);
+
+gsap.registerPlugin(ScrollTrigger);
+
 
 
 function Skills() {
