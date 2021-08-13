@@ -5,9 +5,9 @@ import { Tween } from 'react-gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import { gsap } from 'gsap';
 
-// forces CSSPlugin to be included in build -- although ScrollTrigger works just fine locally, CSSPlugin seems to be dropped during build
-import { CSSPlugin } from 'gsap/CSSPlugin';
-gsap.registerPlugin(CSSPlugin);
+// forces CSSRulePlugin to be included in build -- although ScrollTrigger works just fine locally, CSSPlugin seems to be dropped during build
+import { CSSRulePlugin } from 'gsap/CSSRulePlugin';
+gsap.registerPlugin(CSSRulePlugin);
 gsap.registerPlugin(ScrollTrigger);
 
 

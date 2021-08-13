@@ -6,10 +6,10 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import './App.css';
 
-// forces CSSPlugin to be included in build -- although ScrollTrigger works just fine locally, CSSPlugin seems to be dropped during build
+// forces CSSRulePlugin to be included in build -- although ScrollTrigger works just fine locally, CSSRulePlugin seems to be dropped during build
 import { gsap } from 'gsap';
-import { CSSPlugin } from 'gsap/CSSPlugin';
-gsap.registerPlugin(CSSPlugin);
+import { CSSRulePlugin } from 'gsap/CSSRulePlugin';
+gsap.registerPlugin(CSSRulePlugin);
 
 function App() {
   return (
