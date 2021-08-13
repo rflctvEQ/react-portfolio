@@ -10,7 +10,6 @@ function Title() {
                     from={{ 
                         x: '-2000px',
                         opacity: '0', 
-                        // scale: '0.01'
                         delay: '1'
                     }}
                     duration={1}
