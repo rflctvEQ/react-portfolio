@@ -10,7 +10,7 @@ import { CSSRulePlugin } from 'gsap/CSSRulePlugin';
 gsap.registerPlugin(CSSRulePlugin);
 
 gsap.registerPlugin(ScrollTrigger);
-// TODO: look up what the following line actually does (if it even fixes my problem!!!);
+// gsap mods suggest adding this line to fix problems with ScrollTrigger in production environments
 gsap.core.globals('ScrollTrigger', ScrollTrigger);
 
 
