@@ -10,6 +10,8 @@ import { CSSRulePlugin } from 'gsap/CSSRulePlugin';
 gsap.registerPlugin(CSSRulePlugin);
 
 gsap.registerPlugin(ScrollTrigger);
+// TODO: look up what the following line actually does (if it even fixes my problem!!!);
+gsap.core.globals('ScrollTrigger', ScrollTrigger);
 
 
 function About() {
