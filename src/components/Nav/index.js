@@ -31,7 +31,7 @@ function Nav() {
         if (prevScrollPos > currentScrollPos) {
             setNavbarPosition('0');
         // this ensures navbar doesn't disappear when the user clicks on hamburger icon
-        } else if (animatedIcon.classList.contains('open') === true) {
+        } else if (animatedIcon.classList.contains('open')) {
             setNavbarPosition('0');
         // this fixes bug for mobile where navbar disappears when users scroll to top
         } else if (currentScrollPos < 30) {

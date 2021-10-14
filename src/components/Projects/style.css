@@ -30,9 +30,15 @@
     background-color: rgb(51, 2, 107);
     background-image: none;
     transform: scale(1.15, 1.15) !important;
+    transition: .25s;
     z-index: 1;
     border-color: var(--light);
     height: 225px;
+}
+
+/* larger height for .project1 because of its lengthier description */
+.project1:hover {
+    height: 250px;
 }
 
 .project .project-title {
@@ -116,10 +122,23 @@
     background-position: center;
 }
 
-.project1:hover {
-    /* height: 225px; */
+.username {
+    margin-top: 0px;
+    margin-bottom: 0;
 }
 
-.project5:hover {
-    /* height: 250px; */
+.password {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .project1:hover {
+        height: 275px;
+    }
+}
+
+@media screen and (max-widht: 776px) {
+    .project1:hover {
+        height: 225px;
+    }
 }

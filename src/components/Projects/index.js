@@ -18,7 +18,7 @@ function Projects() {
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#222" fillOpacity="1" d="M0,224L60,213.3C120,203,240,181,360,176C480,171,600,181,720,192C840,203,960,213,1080,197.3C1200,181,1320,139,1380,117.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
             <section className="projects panel" id="projects">
                 <div className="container project-container">
-                <h1>My projects</h1>
+                    <h1>My projects</h1>
                     <div className="row justify-content-center row1">
                         <Tween
                             from={{
@@ -34,7 +34,9 @@ function Projects() {
                             <figure className="col-10 col-md-4 col-lg-3 project project1">
                                 <div className="description">
                                     <p className="project-title">Inspecto-Gadget</p>
-                                    <p>MVP full stack app to be used by inspectors and administrators in Orchard Lake, MI for organizing and conducting local inspections.</p>
+                                    <p>MVP of app inspectors and administrators in Orchard Lake, MI use for tracking inspections.</p>
+                                    <p className='username'>User: Electrical</p>
+                                    <p className='password'>Password: pass12345</p>
                                     <div className="link-buttons">
                                         <a href="https://github.com/Laurenzel93/inspecto-gadget" target="_blank" className="github-link">GitHub Repo</a>
                                         <a href="https://arcane-taiga-84005.herokuapp.com/" target="_blank" className="project-link">Heroku</a>
