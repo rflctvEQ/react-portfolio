@@ -13,21 +13,21 @@
 }
 
 .project {
-    background-color: var(--purple);
+    background-color: var(--blue);
     height: 200px;
     margin: 10px; 
     border-radius: 10px;
     text-decoration: none;
     color: var(--light);
     padding-top: 10px;
-    border: 3px solid var(--purple);
+    border: 3px solid var(--blue);
     display: flex;
 }
 
 .project:hover {
     text-decoration: none;
     color: var(--light);
-    background-color: rgb(51, 2, 107);
+    background-color: var(--darkBlue);
     background-image: none;
     transform: scale(1.15, 1.15) !important;
     transition: .25s;
@@ -60,16 +60,16 @@
 
 .project .github-link {
     background-color: var(--light);
-    color: var(--purple);
-    border: 3px solid var(--purple);
+    color: black;
+    border: 3px solid var(--blue);
     border-radius: 9000px; 
     padding: 8px;
 }
 
 .project .project-link {
     background-color: var(--light);
-    color: var(--purple);
-    border: 3px solid var(--purple);
+    color: black;
+    border: 3px solid var(--blue);
     border-radius: 9000px; 
     padding: 8px;
 }

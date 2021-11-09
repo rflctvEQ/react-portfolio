@@ -1,5 +1,8 @@
 :root {
   --purple: rgb(98, 2, 207);
+  --blue: #7da4ff;
+  --grayBlue: #9FADCC;
+  --darkBlue: #25314D;
   --dark: #222;
   --light: #ddd;
 }

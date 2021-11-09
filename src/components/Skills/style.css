@@ -10,6 +10,7 @@
     max-width: 80%;
     margin: 2rem;
     padding-top: 2rem;
+    line-height: 1.5;
 }
 
 .green {
@@ -17,12 +18,22 @@
 }
 
 .resume a {
-    color: var(--purple);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
-.resume a:hover {
-    color: rgb(75, 0, 160);
+.resume a span{
+    color: var(--blue);
+    /* text-decoration: underline; */
+    border: solid 4px var(--blue);
+    padding: 5px;
+}
+
+.resume a span:hover {
+    /* color: rgb(75, 0, 160); */
+    color: white;
+    background-color: var(--blue);
+    transition-duration: 500ms;
+    transition-property: background-color, color;
 }
 
 .technologies-title {

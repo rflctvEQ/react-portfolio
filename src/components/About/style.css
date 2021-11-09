@@ -10,7 +10,7 @@
 
 .about img {
     border-radius: 50%;
-    border: 8px solid var(--purple);
+    border: 8px solid var(--darkBlue);
     justify-content: center;
     display: block;
     margin-left: auto;

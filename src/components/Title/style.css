@@ -4,7 +4,7 @@
     color: var(--light);
     border-radius: 0;
     border-bottom: 1px solid var(--dark);
-    background-image: url("../../images/looking-up.jpg");
+    background-image: url("../../images/tech-background.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     /* background-size: 100vw; */
@@ -27,7 +27,8 @@
 .custom-jumbo h1 {
     text-align: center;
     color: white;
-    background-color: var(--purple);
+    /* background-color:#6DA6E3; */
+    background-color: var(--darkBlue);
     font-size: 5.5rem;
     padding: 0 15px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -38,7 +39,9 @@
 .custom-jumbo h2 {
     text-align: center;
     color: white;
-    background-color: var(--purple);
+    /* background-color: var(--purple); */
+    /* background-color:#6DA6E3; */
+    background-color: var(--darkBlue);
     font-family: 'Courier New', Courier, monospace;
     opacity: .75;
     backdrop-filter: blur(6px);

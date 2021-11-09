@@ -25,8 +25,7 @@ function Projects() {
                                 x: '250px',
                                 opacity: 0,
                                 scrollTrigger: {
-                                    trigger: '.project1',
-                                    toggleActions: 'restart'
+                                    trigger: '.project1'
                                 }
                             }}
                             ease='back'
@@ -69,8 +68,7 @@ function Projects() {
                                 x: '-250px',
                                 opacity: 0,
                                 scrollTrigger: {
-                                    trigger: '.project4',
-                                    toggleActions: 'restart'
+                                    trigger: '.project4'
                                 }
                             }}
                             ease='back'

@@ -25,10 +25,10 @@ function About() {
             opacity: 0,
             scrollTrigger: {
                 trigger: '.hi',
-                start: 'top bottom',
-                end: 'bottom center',
-                scrub: 1,
-                toggleActions: 'restart pause reverse pause'
+                // start: 'top bottom',
+                // end: 'bottom center',
+                // scrub: 1,
+                // toggleActions: 'play none none none'
             }
         })
 
@@ -37,10 +37,10 @@ function About() {
             scale: '0.6',
             scrollTrigger: {
                 trigger: '.profile-pic',
-                start: 'top bottom',
-                end: 'bottom center',
-                scrub: 1,
-                toggleActions: 'restart pause reverse pause'
+                // start: 'top bottom',
+                // end: 'bottom center',
+                // scrub: 1,
+                // toggleActions: 'play none none none'
             }
         })
 
@@ -49,10 +49,10 @@ function About() {
             opacity: '0',
             scrollTrigger: {
                 trigger: '.so-happy',
-                start: 'top bottom',
-                end: 'bottom 80%',
-                scrub: 1,
-                toggleActions: 'restart pause reverse pause'
+                // start: 'top bottom',
+                // end: 'bottom 80%',
+                // scrub: 1,
+                // toggleActions: 'play none none none'
             }
         })
 
@@ -61,10 +61,10 @@ function About() {
             opacity: '0',
             scrollTrigger: {
                 trigger: '.so-happy',
-                start: 'top bottom',
-                end: 'bottom 80%',
-                scrub: 1,
-                toggleActions: 'restart pause reverse pause'
+                // start: 'top bottom',
+                // end: 'bottom 80%',
+                // scrub: 1,
+                // toggleActions: 'play none none none'
             }
         })
 
@@ -77,10 +77,10 @@ function About() {
             opacity: 0,
             scrollTrigger: {
                 trigger: '.hi',
-                start: 'top 90%',
-                end: 'top center',
-                scrub: true,
-                toggleActions: 'restart pause reverse pause'
+                // start: 'top 90%',
+                // end: 'top center',
+                // scrub: true,
+                // toggleActions: 'play none none none'
             }
         })
 
@@ -89,10 +89,10 @@ function About() {
             scale: '0.3',
             scrollTrigger: {
                 trigger: '.profile-pic',
-                start: 'top 90%',
-                end: 'top 60%',
-                scrub: true,
-                toggleActions: 'restart pause reverse pause'
+                // start: 'top 90%',
+                // end: 'top 60%',
+                // scrub: true,
+                // toggleActions: 'play none none none'
             }
         })
 
@@ -101,10 +101,10 @@ function About() {
             opactiy: '0',
             scrollTrigger: {
                 trigger: '.so-happy',
-                start: 'top 90%',
-                end: 'top 80%',
-                scrub: true,
-                toggleActions: 'restart pause reverse pause'
+                // start: 'top 90%',
+                // end: 'top 80%',
+                // scrub: true,
+                // toggleActions: 'play none none none'
             }
         })
 
@@ -113,10 +113,10 @@ function About() {
             opacity: '0',
             scrollTrigger: {
                 trigger: '.so-happy',
-                start: 'top 90%',
-                end: 'top 80%',
-                scrub: true,
-                toggleActions: 'restart pause reverse pause'
+                // start: 'top 90%',
+                // end: 'top 80%',
+                // scrub: true,
+                // toggleActions: 'play none none none'
             }
         })
     }

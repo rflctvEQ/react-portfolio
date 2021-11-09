@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import './style.css';
+import reactIcon from '../../linked-files/react.svg';
+import typescriptIcon from '../../linked-files/typescript-icon.svg';
+import javascriptIcon from '../../linked-files/javascript.svg';
 import htmlIcon from '../../linked-files/html.svg'
 import cssIcon from '../../linked-files/css.svg'
-import javascriptIcon from '../../linked-files/javascript.svg';
-import reactIcon from '../../linked-files/react.svg';
 import bootstrapIcon from '../../linked-files/bootstrap.svg';
 import nodejsIcon from '../../linked-files/nodejs-icon.svg';
 import expressIcon from '../../linked-files/express.svg';
@@ -11,7 +12,6 @@ import insomniaIcon from '../../linked-files/insomnia.svg';
 import mysqlIcon from '../../linked-files/mysql.svg';
 import mongodbIcon from '../../linked-files/mongodb.svg';
 import gitIcon from '../../linked-files/git.svg';
-import googleIcon from '../../linked-files/google-icon.svg';
 
 import { Tween } from 'react-gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
@@ -62,7 +62,7 @@ function Skills() {
                         delay={.25}
                         duration={2}
                     >
-                        <span>my resume</span>
+                        <span>my&nbsp;resume</span>
                     </Tween>
                 </a>
                 {` for a peek into my professional career so far.`}</h1>
@@ -74,14 +74,28 @@ function Skills() {
                             opacity: 0,
                             x: '100px', 
                             scrollTrigger: {
-                                trigger: '.tech-logo',
-                                toggleActions: 'restart'
+                                trigger: '.tech-logo'
                             }
                         }}
                         ease='elastic'
                         delay={.5}
                         duration={1.5}
                     >
+                        <div className="react-div col-6 col-sm-6 col-md-6 col-lg-3">
+                            <div className="tech-logo">
+                                <img src={reactIcon} alt="React logo" width={iconWidth} />
+                            </div>
+                        </div>
+                        <div className="typescript-div col-6 col-sm-6 col-md-6 col-lg-3">
+                            <div className="tech-logo">
+                                <img src={typescriptIcon} alt="TypeScript logo" width={iconWidth} />
+                            </div>
+                        </div>
+                        <div className="javascript-div col-6 col-sm-6 col-md-6 col-lg-3">
+                            <div className="tech-logo">
+                                <img src={javascriptIcon} alt="JavaScript logo" width={iconWidth} />
+                            </div>
+                        </div>
                         <div className="html-div col-6 col-sm-6 col-md-6 col-lg-3">
                             <div className="tech-logo">
                                 <img src={htmlIcon} alt="HTML 5 logo" width={iconWidth} />
@@ -90,16 +104,6 @@ function Skills() {
                         <div className="css-div col-6 col-sm-6 col-md-6 col-lg-3">
                             <div className="tech-logo">
                                 <img src={cssIcon} alt="CSS logo" width={iconWidth} />
-                            </div>
-                        </div>
-                        <div className="javascript-div col-6 col-sm-6 col-md-6 col-lg-3">
-                            <div className="tech-logo">
-                                <img src={javascriptIcon} alt="JavaScript logo" width={iconWidth} />
-                            </div>
-                        </div>
-                        <div className="react-div col-6 col-sm-6 col-md-6 col-lg-3">
-                            <div className="tech-logo">
-                                <img src={reactIcon} alt="React logo" width={iconWidth} />
                             </div>
                         </div>
                         <div className="bootstrap-div col-6 col-sm-6 col-md-6 col-lg-3">
@@ -135,11 +139,6 @@ function Skills() {
                         <div className="git-div col-6 col-sm-6 col-md-6 col-lg-3">
                             <div className="tech-logo">
                                 <img src={gitIcon} alt="Git logo" width={iconWidth} />
-                            </div>
-                        </div>
-                        <div className="google-div col-6 col-sm-6 col-md-6 col-lg-3">
-                            <div className="tech-logo">
-                                <img src={googleIcon} alt="Google logo" width={iconWidth} />
                             </div>
                         </div>
                     </Tween>
