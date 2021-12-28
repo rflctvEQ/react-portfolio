@@ -7,13 +7,10 @@
     background-image: url("../../images/tech-background.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* background-size: 100vw; */
     background-size: cover;
-
-    /* this is for a background image that isn't fixed */
-    /* background-size: cover;
-    background-position: center; */
-
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     padding-top: 30vh;
 }
 
@@ -50,5 +47,13 @@
 @media screen and (max-width: 600px) {
     .custom-jumbo {
         background-position: center;
+    }
+
+    .custom-jumbo h1 {
+        font-size: 3.5rem;
+    }
+
+    .custom-jumbo h2 {
+        font-size: 1.75rem;
     }
 }

@@ -1,8 +1,6 @@
 .resume {
     background-color: white;
     min-height: 120vh;
-    padding-right: 15%;
-    padding-left: 15%;
     padding-bottom: 2rem;
 }
 
@@ -56,40 +54,10 @@
     align-items: center;
 }
 
-/* .teaching {
-    display: flex;
-    flex-direction: row;
-    margin-top: 6rem;
-    margin-bottom: 5rem;
+@media screen and (max-width: 600px) {
+    .resume h1 {
+        font-size: 1.5rem;
+        width: 90%;
+        margin: .5rem;
+    }
 }
-
-.teaching img {
-    margin-right: 10px;
-    margin-left: 4rem;
-    display: block;
-}
-
-.courses {
-    margin-left: 75px;
-    margin-right: 2rem;
-    border: 15px solid var(--purple);
-    border-radius: 35px;
-    padding: 10px;
-}
-
-.courses h2 {
-    margin-bottom: 15px;
-}
-
-.courses ul {
-    list-style-type: disclosure-closed;
-}
-
-.courses ul li {
-    line-height: 4.5;
-    margin-left: -19px;
-}
-
-.courses ul li a {
-    text-decoration: none;
-} */

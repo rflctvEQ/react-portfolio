@@ -22,6 +22,8 @@
     padding-top: 10px;
     border: 3px solid var(--blue);
     display: flex;
+    font-size: .75rem;
+    overflow-y: auto;
 }
 
 .project:hover {
@@ -33,17 +35,17 @@
     transition: .25s;
     z-index: 1;
     border-color: var(--light);
-    height: 225px;
+    height: auto;
 }
 
 /* larger height for .project1 because of its lengthier description */
-.project1:hover {
+/* .project1:hover {
     height: 250px;
-}
+} */
 
 .project .project-title {
-    font-weight: 700;
-    font-style: oblique;
+    font-weight: 300;
+    font-size: 1rem;
 }
 
 .project .description {
@@ -58,66 +60,60 @@
     display: none;
 }
 
-.project .github-link {
+.link-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.project .github-link, .project .project-link {
     background-color: var(--light);
     color: black;
-    border: 3px solid var(--blue);
-    border-radius: 9000px; 
-    padding: 8px;
+    border: 1px solid var(--blue);
+    border-radius: 5px; 
+    padding: 5px;
+    font-size: .75rem;
+    margin: 1rem .5rem .5rem 0;
 }
 
-.project .project-link {
-    background-color: var(--light);
-    color: black;
-    border: 3px solid var(--blue);
-    border-radius: 9000px; 
-    padding: 8px;
-}
-
-.project .github-link:hover {
-    background-color: var(--dark);
-    color: var(--light);
-    text-decoration: none;
-}
-
-.project .project-link:hover {
+.project .github-link:hover, .project .project-link:hover {
     background-color: var(--dark);
     color: var(--light);
     text-decoration: none;
 }
 
 .project1 {
-    background-image: url("../../images/inspecto-gadget.png");
+    background-image: url("../../images/enchanted-quill.png");
     background-size: cover;
     background-position: center;
 }
 
 .project2 {
-    background-image: url("../../images/group-mentality.png");
+    background-image: url("../../images/this-game.png");
     background-size: cover;
     background-position: center;
 }
 
 .project3 {
-    background-image: url("../../images/tech-blog.png");
+    background-image: url("../../images/inspecto-gadget.png");
     background-size: cover;
     background-position: center;
 }
 
 .project4 {
-    background-image: url("../../images/note-taker.png");
+    background-image: url("../../images/group-mentality.png");
     background-size: cover;
     background-position: center;
 }
 
 .project5 {
-    background-image: url("../../images/employee-directory.png");
+    background-image: url("../../images/tech-blog.png");
     background-size: cover;
     background-position: center;
 }
 
 .project6 {
-    background-image: url("../../images/fitness-tracker.png");
+    background-image: url("../../images/employee-directory.png");
     background-size: cover;
     background-position: center;
 }
@@ -132,13 +128,13 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .project1:hover {
+    /* .project1:hover {
         height: 275px;
-    }
+    } */
 }
 
 @media screen and (max-widht: 776px) {
-    .project1:hover {
+    /* .project1:hover {
         height: 225px;
-    }
+    } */
 }
