@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import './style.css';
 
 function Nav() {
-
     // button that opens/collapses navbar 
     const [ hamBtnClass, setHamBtnClass ] = useState('animated-icon');
     // div that opens/collapses with list of navlinks
