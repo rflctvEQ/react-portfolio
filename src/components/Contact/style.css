@@ -76,6 +76,7 @@
 @media screen and (max-width: 600px) {
     .contact {
         background-image: url('../../images/bright-tech-background.jpg');
+        background-attachment: initial;
         background-position: center;
     }
 
