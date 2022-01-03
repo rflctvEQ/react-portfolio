@@ -75,18 +75,31 @@
 
 @media screen and (max-width: 600px) {
     .contact {
+        background-image: url('../../images/bright-tech-background.jpg');
         background-position: center;
     }
 
     .contact-row h1 {
         font-size: 3rem;
+        backdrop-filter: blur(3px);
+        color: black !important;
+    }
+
+    .center-name-email {
+        backdrop-filter: blur(3px);
+        padding: 1rem 0;
     }
 
     .contact-row h2 {
         font-size: 2rem;
+        color: black !important;
     }
     
     .contact-row h3 {
         font-size: 1rem;
+    }
+    
+    .contact-row h3 a {
+        color: black;
     }
 }

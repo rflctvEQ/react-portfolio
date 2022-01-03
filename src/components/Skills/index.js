@@ -48,7 +48,7 @@ function Skills() {
 
     return (
         <section className="resume panel" id="resume">
-            <h1>{`Check out `}
+            <h1 className='check-out-my-resume'>{`Check out `}
                 <a href="./resume-ian-everitt.pdf" target="_blank">
                     <Tween
                         from={{

@@ -46,6 +46,7 @@
 
 @media screen and (max-width: 600px) {
     .custom-jumbo {
+        background-image: url("../../images/tech-city-background.jpg");
         background-position: center;
     }
 
