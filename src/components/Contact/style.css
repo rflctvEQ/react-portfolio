@@ -75,9 +75,10 @@
 
 @media screen and (max-width: 600px) {
     .contact {
-        /* background-image: url('../../images/bright-tech-background.jpg'); */
-        background-attachment: initial;
-        background-position: center;
+        background-image: none;
+        background-color: var(--dark);
+        /* background-attachment: initial;
+        background-position: center; */
     }
 
     .contact-row h1 {
