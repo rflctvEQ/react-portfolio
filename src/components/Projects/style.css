@@ -1,41 +1,41 @@
 .projects {
-    background-color: var(--dark);
-    color: var(--light);
-    min-height: 100vh;
-    border: none !important;
+  background-color: var(--dark);
+  color: var(--light);
+  min-height: 100vh;
+  border: none !important;
 }
 
 .projects h1 {
-    /* margin-left: 16vw; */
-    text-align: center;
-    padding-top: 2rem;
-    margin-bottom: 4rem;
+  /* margin-left: 16vw; */
+  text-align: center;
+  padding-top: 2rem;
+  margin-bottom: 4rem;
 }
 
 .project {
-    background-color: var(--blue);
-    height: 200px;
-    margin: 10px; 
-    border-radius: 10px;
-    text-decoration: none;
-    color: var(--light);
-    padding-top: 10px;
-    border: 3px solid var(--blue);
-    display: flex;
-    font-size: .75rem;
-    overflow-y: auto;
+  background-color: var(--blue);
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--light);
+  padding-top: 10px;
+  border: 3px solid var(--blue);
+  display: flex;
+  font-size: 0.75rem;
+  overflow-y: auto;
 }
 
 .project:hover {
-    text-decoration: none;
-    color: var(--light);
-    background-color: var(--darkBlue);
-    background-image: none;
-    transform: scale(1.15, 1.15) !important;
-    transition: .25s;
-    z-index: 1;
-    border-color: var(--light);
-    height: auto;
+  text-decoration: none;
+  color: var(--light);
+  background-color: var(--darkBlue);
+  background-image: none;
+  transform: scale(1.15, 1.15) !important;
+  transition: 0.25s;
+  z-index: 1;
+  border-color: var(--light);
+  height: auto;
 }
 
 /* larger height for .project1 because of its lengthier description */
@@ -44,97 +44,99 @@
 } */
 
 .project .project-title {
-    font-weight: 300;
-    font-size: 1rem;
+  font-weight: 300;
+  font-size: 1rem;
 }
 
 .project .description {
-    display: none;
+  display: none;
 }
 
 .project:hover .description {
-    display: block;
+  display: block;
 }
 
 .project:hover h2 {
-    display: none;
+  display: none;
 }
 
 .link-buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
 }
 
-.project .github-link, .project .project-link {
-    background-color: var(--light);
-    color: black;
-    border: 1px solid var(--blue);
-    border-radius: 5px; 
-    padding: 5px;
-    font-size: .75rem;
-    margin: 1rem .5rem .5rem 0;
+.project .github-link,
+.project .project-link {
+  background-color: var(--light);
+  color: black;
+  border: 1px solid var(--blue);
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 0.75rem;
+  margin: 1rem 0.5rem 0.5rem 0;
 }
 
-.project .github-link:hover, .project .project-link:hover {
-    background-color: var(--dark);
-    color: var(--light);
-    text-decoration: none;
+.project .github-link:hover,
+.project .project-link:hover {
+  background-color: var(--dark);
+  color: var(--light);
+  text-decoration: none;
 }
 
 .project1 {
-    background-image: url("../../images/enchanted-quill.png");
-    background-size: cover;
-    background-position: center;
+  background-image: url("../../images/gene-profile.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .project2 {
-    background-image: url("../../images/this-game.png");
-    background-size: cover;
-    background-position: center;
+  background-image: url("../../images/enchanted-quill.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .project3 {
-    background-image: url("../../images/inspecto-gadget.png");
-    background-size: cover;
-    background-position: center;
+  background-image: url("../../images/this-game.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .project4 {
-    background-image: url("../../images/group-mentality.png");
-    background-size: cover;
-    background-position: center;
+  background-image: url("../../images/inspecto-gadget.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .project5 {
-    background-image: url("../../images/tech-blog.png");
-    background-size: cover;
-    background-position: center;
+  background-image: url("../../images/group-mentality.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .project6 {
-    background-image: url("../../images/employee-directory.png");
-    background-size: cover;
-    background-position: center;
+  background-image: url("../../images/tech-blog.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .username {
-    margin-top: 0px;
-    margin-bottom: 0;
+  margin-top: 0px;
+  margin-bottom: 0;
 }
 
 .password {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 1200px) {
-    /* .project1:hover {
+  /* .project1:hover {
         height: 275px;
     } */
 }
 
 @media screen and (max-widht: 776px) {
-    /* .project1:hover {
+  /* .project1:hover {
         height: 225px;
     } */
 }
