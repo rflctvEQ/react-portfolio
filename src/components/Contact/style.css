@@ -1,13 +1,13 @@
 .contact {
   background-color: var(--dark);
   color: var(--darkBlue);
-  min-height: 100vh;
+  /* min-height: 100vh; */
   border-radius: 0;
   border-bottom: 1px solid var(--dark);
   background-image: url("../../images/tech-background.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100vw;
+  /* background-size: 100vw; */
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;

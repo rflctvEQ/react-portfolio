@@ -7,9 +7,9 @@ function Title() {
         <header className="jumbotron vh-100 custom-jumbo">
             <div className="header-div">
                 <Tween
-                    from={{ 
+                    from={{
                         x: '-2000px',
-                        opacity: '0', 
+                        opacity: '0',
                         delay: '1'
                     }}
                     duration={1}
