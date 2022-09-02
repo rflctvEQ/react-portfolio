@@ -1,82 +1,86 @@
 .resume {
-    background-color: white;
-    min-height: 120vh;
-    padding-bottom: 2rem;
-    display: flex;
-    flex-direction: column;
+  background-color: white;
+  min-height: 120vh;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .resume h1 {
-    /* max-width: 80%;
-    padding-top: 2rem; */
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 .check-out-my-resume {
-    max-width: 80vw;
-    padding-top: 2rem;
-    margin: 2rem auto;
+  max-width: 80vw;
+  padding-top: 2rem;
+  margin: 2rem auto;
 }
 
 .technologies-title {
-    position: relative;
-    left: 10vw;
-    margin: 2rem 0;
+  margin: 2rem 0;
+  text-align: center;
 }
 
 .resume a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.resume a span{
-    color: var(--blue);
-    /* text-decoration: underline; */
-    border: solid 4px var(--blue);
-    padding: 5px;
+.resume a span {
+  color: var(--blue);
+  /* text-decoration: underline; */
+  border: solid 4px var(--blue);
+  padding: 5px;
 }
 
 .resume a span:hover {
-    /* color: rgb(75, 0, 160); */
-    color: white;
-    background-color: var(--blue);
-    transition-duration: 500ms;
-    transition-property: background-color, color;
+  /* color: rgb(75, 0, 160); */
+  color: white;
+  background-color: var(--blue);
+  transition-duration: 500ms;
+  transition-property: background-color, color;
 }
 
 .tech-logo {
-    /* width: 100px; */
-    /* max-height: auto; */
-    margin: 1rem;
+  margin: 1rem;
 }
 
 .technologies {
-    margin: 0 auto 10rem;
+  margin: 0 auto 10rem;
 }
 
-.express-div, .mongodb-div {
-    display: flex;
-    align-items: center;
+.tech-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.tech-div p {
+  font-weight: 600;
+  font-size: 1.25rem;
+  text-align: center;
 }
 
 @media screen and (max-width: 600px) {
-    .resume h1 {
-        font-size: 1.5rem;
-        width: 90%;
-        margin: .5rem auto;
-    }
+  .resume h1 {
+    font-size: 1.5rem;
+    width: 90%;
+    margin: 0.5rem auto;
+  }
 
-    .technologies-title {
-        left: 5%;
-    }
+  .technologies-title {
+    margin: 3rem auto 1rem !important;
+  }
 
-    .technologies {
-        position: relative;
-        left: 15px;
-    }
+  /* .technologies {
+    position: relative;
+    left: 15px;
+  } */
 }
 
 @media screen and (max-width: 350px) {
-    .technologies {
-        left: 0px;
-    }
+  .technologies {
+    left: 0px;
+  }
 }

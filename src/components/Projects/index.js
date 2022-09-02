@@ -42,7 +42,7 @@ function Projects() {
                             <figure className="col-10 col-md-4 col-lg-3 project project2">
                                 <div className="description">
                                     <p className="project-title">Enchanted Quill</p>
-                                    <p>React/TypeScript/Express/MySQL ecommerce site under construction for Enchanted Quill Artwork, LLC.</p>
+                                    <p>React/TypeScript/Express/MySQL ecommerce site for Enchanted Quill Artwork, LLC.</p>
                                     <div className="link-buttons">
                                         <a href="https://enchantedquillart.com" target="_blank" className="project-link">Visit Site</a>
                                     </div>
